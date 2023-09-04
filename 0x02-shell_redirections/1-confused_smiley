@@ -1,2 +1,3 @@
 #!/bin/bash
+nano confused_smiley.sh
 echo "(Ôo)''"
