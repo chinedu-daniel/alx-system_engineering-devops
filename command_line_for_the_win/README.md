@@ -1,0 +1,11 @@
+STEPS FOLLOWED TO USE THE SFTP COMMAND_LINE TOOL
+- open the terminal 
+- navigated to the intranet
+- inside the intranet, navigated to the sandbox
+- copied the sftp key and password
+- pasted them in the terminal
+- when the sftp prompt show, show the current working directory
+- navigate to the directory where the files are
+- then use the put statement to transfer the files
+- once done, exit the sftp and login using the ssh key
+- then push the files to github
