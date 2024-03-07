@@ -1,0 +1,18 @@
+#!/usr/bin/env bash
+# to display a text 10 times but an iteration,
+# on the 9th position
+
+count=0
+
+while [ $count -lt 10 ]
+do
+	((count++))
+
+	if [ $count -eq 9 ]
+	then
+		echo "Best School"
+		echo "Hi"
+	else
+		echo "Best School"
+	fi
+done
