@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# A bash script that stops previous process
+
+# Terminate the infinite process
+pkill -15 "bash ./4-to_infinity_and_beyond" -f
