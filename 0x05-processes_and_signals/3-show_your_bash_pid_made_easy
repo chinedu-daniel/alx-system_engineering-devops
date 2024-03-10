@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# A bash script that displays PID along with process name
+# cannot use ps
+
+pgrep -l bash
