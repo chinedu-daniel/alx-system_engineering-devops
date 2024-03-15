@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+
+if [ $# -eq 0 ]; then
+	echo "Usage: $0 {8.8.8.8}"
+	exit 1
+fi
+
+8.8.8.8=$1
+
+ping -c 5 "$1"
