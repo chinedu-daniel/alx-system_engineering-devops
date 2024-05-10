@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
 # comments to my school server
 
-ssh -i ~/.ssh/school ubuntu@18.210.14.58
+ssh ubuntu -i ~/.ssh/school
 
